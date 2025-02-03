@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: #006aff;  */
+    background-image: url("anime.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Tahoma;
+    background-position: center;
+  }
+.container {
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px 20px 20px;
+    /* background: #9a9a9a; */
+    /* background:linear-gradient(270deg, #c8ff00, #d3f56d, #ffffff) ; */
+    border: 2px solid #000000;
+    background: rgba(255, 255, 255, 0.249);
+    /* position: relative; */
+}
+/* .overlay-image{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: auto;
+} */
+.input {
+    height: 80px;
+    width: 100%;
+    outline: none;
+    border: none;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #000000;
+    background: #ffffff00;
+    border: 2px solid #000;
+    border-radius: 5px;
+  }
+.button{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.button button{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #ffffff00;
+    border: 2px solid #000;
+}
+.button button:active{
+    transform: scale(0.99);
+}
+.operator{
+    color: #ff0000;
+}
+.ac,
+.del{
+    color: #ff0000;
+}
